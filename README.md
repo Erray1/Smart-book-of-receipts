@@ -1,3 +1,5 @@
 # Smart-book-of-receipts
+
 СПО 1 практическая работа
-Материалы: https://drive.google.com/drive/folders/12ORTPFkwQFo-jp9YlFWXEC-ooYi6VNGW?usp=sharing
+
+Материалы: https://docs.google.com/document/d/16SyJPBRpVlyAr6XhNtZz81fpyGyVJCMJbanxzQDlGW0/edit?usp=sharing
