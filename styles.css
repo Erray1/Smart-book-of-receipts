@@ -1,0 +1,177 @@
+.body {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    position: absolute;
+    background: #9ACD32;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 5vh;
+    color: #006400;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: 'Ruslan Display';
+    src: url(RuslanDisplay.ttf);
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url(PressStart2P.ttf);
+}
+
+a {
+    text-decoration: none;
+    color: #006400;
+}
+
+.nav_home {
+    margin: 8px auto;
+    padding: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.nav {
+    margin: 1.5vh auto;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Ruslan Display';
+    font-size: 2vh;
+}
+
+.main {
+    margin: 10vh auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text {
+    margin: 0.5vh auto;
+    font-family: 'Century Gothic';
+    font-size: 1.25em;
+}
+
+
+.search {
+    background-color: #e9e9e9;
+    width: 40vw;
+    height: 5vh;
+    border-radius: 10px;
+}
+
+.search input[type=text] {
+    background-color: #e9e9e9;
+    float: left;
+    margin: 0.3vh 0.5vw;
+    padding: 0.5vh;
+    border: none;
+    font-size: 1em;
+}
+
+.search-container{
+    float: right;
+    background: #e9e9e9;
+    border-radius: 10px;
+    padding: 0.35vh;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.4vw;
+}
+  
+.search-container:hover {
+    background: #ccc;
+}
+
+
+.pop-recepies-title {
+    font-family: 'Ruslan Display';
+    color: #006400;
+    margin: 4vh 0;
+}
+
+
+.pop-recepies {
+    vertical-align: middle;
+}
+
+.card {
+    background: #e9e9e9;
+    width: 450px;
+    padding: 30px 4vw 0px;
+    display: inline-block;
+    margin: 0px 15px 30px;
+    border-radius: 0.8em;
+}
+
+.card-title {
+    margin: 1vh auto;
+    font-family: 'Arial Black';
+    font-size: 1.5em;
+}
+
+.link-card {
+    width: 250px;
+    margin: 30px 30px 5px;
+    padding: 2vh 2vw 0.5vh;
+    display: inline-block;
+    background-color: #000000;
+    border-radius: 1em;
+}
+
+.scale {
+    transition: 0.4s;
+}
+
+.scale:hover {
+    transform: scale(1.2);
+}
+
+.error {
+    width: 300px;
+    margin: 15vh auto;
+    padding: 20px 20px 20px;
+    display: inline-block;
+    background-color: #000000;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #67737F;
+}
+
+.error-text {
+    margin: 20px 0px 20px;
+    font-family: 'Comic Sans MS';
+    font-size: 1.5em;
+    color: #FFFFFF;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #BC9C74;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7D653D;
+}

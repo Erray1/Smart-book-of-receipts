@@ -1,0 +1,2 @@
+плиточкое расположение карточек: https://ru.stackoverflow.com/questions/1156163/Как-скомпоновать-таблички-друг-за-другом-без-пространств-и-отступов-css
+палитра: https://htmlcolorcodes.com/color-names/
