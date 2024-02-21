@@ -81,7 +81,7 @@ a {
     padding: 0.5vh;
     border: none;
     font-size: 1em;
-    font-family: 'Press Start 2P';
+    font-family: 'Minecraft';
 }
 
 input:focus {outline:none!important;}
@@ -116,6 +116,24 @@ input:focus {outline:none!important;}
     padding: 2vh 2vw 0px;
     display: inline-block;
     border-radius: 0.8em;
+}
+
+.card input {
+    background-color: #e9e9e9;
+    float: left;
+    margin: 0.5vh 0.5vw;
+    padding: 0.5vh;
+    border: none;
+    font-size: 1em;
+    font-family: 'Minecraft';
+}
+
+.access {
+    width: 100%;
+    height: 30px;
+    background-color: #9ACD32;
+    color: #fff;
+    font-family: 'Press Start 2P';
 }
 
 .card-title {
