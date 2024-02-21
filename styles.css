@@ -9,6 +9,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-color: #FFFFFF;
+    font-family: 'Minecraft';
 }
 
 .header {
@@ -21,6 +22,7 @@
     height: 5vh;
     color: #006400;
     justify-content: space-between;
+    font-family: 'Press Start 2P';
 }
 
 @font-face {
@@ -31,6 +33,11 @@
 @font-face {
     font-family: 'Press Start 2P';
     src: url(PressStart2P.ttf);
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url(Minecraft\ Rus\ NEW.otf);
 }
 
 a {
@@ -49,7 +56,6 @@ a {
     margin: 1.5vh auto;
     text-align: center;
     vertical-align: middle;
-    font-family: 'Ruslan Display';
     font-size: 2vh;
 }
 
@@ -64,7 +70,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 50vw;
-    height: 3vh;
+    height: 35px;
     border-radius: 10px;
 }
 
@@ -95,7 +101,6 @@ input:focus {outline:none!important;}
 }
 
 .pop-recepies-title {
-    font-family: 'Ruslan Display';
     color: #006400;
     margin: 4vh 0;
     font-size: 1.5em;
@@ -115,13 +120,13 @@ input:focus {outline:none!important;}
 
 .card-title {
     margin: 0px auto;
-    font-family: 'Ruslan Display';
     font-size: 1.5em;
+    font-family: 'Press Start 2P';
 }
 
 .text {
     margin: 0.5vh auto;
-    font-family: 'Press Start 2P';
+    font-family: 'Minecraft';
     font-size: 0.8em;
 }
 
