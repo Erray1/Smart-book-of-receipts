@@ -72,11 +72,13 @@ a {
     width: 50vw;
     height: 35px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .search input[type=text] {
     background-color: #e9e9e9;
-    float: left;
     margin: 0.3vh 0.5vw;
     padding: 0.5vh;
     border: none;
@@ -90,10 +92,10 @@ input:focus {outline:none!important;}
     float: right;
     background: #e9e9e9;
     border-radius: 10px;
-    padding: 0.35vh;
+    padding: 0.2vh 0.2vw;
     border: none;
     cursor: pointer;
-    margin-right: 0.4vw;
+    /*margin-right: 0.4vw;*/
 }
   
 .search-container:hover {
@@ -118,6 +120,10 @@ input:focus {outline:none!important;}
     border-radius: 0.8em;
 }
 
+.long {
+    width: 900px;
+}
+
 .card input {
     background-color: #e9e9e9;
     float: left;
@@ -128,12 +134,26 @@ input:focus {outline:none!important;}
     font-family: 'Minecraft';
 }
 
+.auth {
+    height: 60vh;
+    margin: 0 2vw;
+}
+
 .access {
     width: 100%;
     height: 30px;
     background-color: #9ACD32;
     color: #fff;
     font-family: 'Press Start 2P';
+    padding: 1px 6px;
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: outset;
+    border-image: initial;
+    /*border-color: buttonborder;*/
+    
 }
 
 .card-title {
