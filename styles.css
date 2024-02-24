@@ -168,7 +168,6 @@ input:focus {outline:none!important;}
     background-color: #9ACD32;
     color: #fff;
     font-family: 'Press Start 2P';
-    padding: 1px 6px;
     border-width: 2px;
     display: flex;
     align-items: center;
@@ -190,9 +189,10 @@ input:focus {outline:none!important;}
 }
 
 .text {
-    margin: 0.5vh auto;
+    margin: 0.5vh 25px;
     font-family: 'Minecraft';
     font-size: 0.8em;
+    text-align: start;
 }
 
 .scale {
