@@ -16,14 +16,23 @@
         <div class="main">
             <form class="search">
                     <input type="text" placeholder="Найти рецепт блюда">
-                    <a href="search.html" class="search-container"><img src="search 1.svg" width="25px" height="25px"></a>
+                    <a href="search" class="search-container"><img src="img/search 1.svg" width="25px" height="25px"></a>
             </form>
             <p class="pop-recepies-title">Вот что нашлось по запросу "..."</p>
             <div class="pop-recepies">
-                <div class="card long">
-                    <p class="card-title">Название блюда</p>
-                    <p class="text">8 ингредиентов | 1 час</p>
-                </div>
+                <a class="card long" href="receipt">
+                    <img class="images" src="img/8_march.jpeg" width="120px" height="120px">
+                    <div>
+                        <p class="card-title">Название блюда</p>
+                        <p class="text">8 ингредиентов | 1 час</p>
+                        <div class="reactions">
+                            <img src="img/like.png" width="7%" height="7%">
+                            <p class="text">100</p>
+                            <img src="img/dislike.png" width="7%" height="7%">
+                            <p class="text">5</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

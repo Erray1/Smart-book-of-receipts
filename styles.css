@@ -27,12 +27,12 @@
 
 @font-face {
     font-family: 'Ruslan Display';
-    src: url(RuslanDisplay.ttf);
+    src: url(fonts/RuslanDisplay.ttf);
 }
 
 @font-face {
     font-family: 'Press Start 2P';
-    src: url(PressStart2P.ttf);
+    src: url(fonts/PressStart2P.ttf);
 }
 
 @font-face {
@@ -97,7 +97,7 @@ input:focus {outline:none!important;}
     cursor: pointer;
     /*margin-right: 0.4vw;*/
 }
-  
+
 .search-container:hover {
     background: #ccc;
 }
@@ -207,7 +207,7 @@ input:focus {outline:none!important;}
 
 .reactions {
     max-width: 20vw;
-    display: flex; 
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
