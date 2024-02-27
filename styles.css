@@ -132,7 +132,7 @@ input:focus {outline:none!important;}
 }
 
 .big {
-    
+
 }
 
 .card input {
@@ -190,6 +190,12 @@ input:focus {outline:none!important;}
     margin: 0px 25px 10px;
     font-size: 1.25em;
     font-family: 'Press Start 2P';
+}
+
+.receipt{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .text {
